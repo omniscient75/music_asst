@@ -12,9 +12,6 @@ from PIL import Image, ImageTk, ImageSequence
 import threading
 
 # --- CONFIGURATION ---
-SPOTIFY_CLIENT_ID = '9cff449028b34ad482312b53ba0da51d'
-SPOTIFY_CLIENT_SECRET = '293654cd3ead483bbd53b594a8f962e3'
-SPOTIFY_REDIRECT_URI = 'http://127.0.0.1:8888/callback'
 WAKE_WORDS = ['rose', 'sara', 'computer']
 
 # --- SETUP TTS ENGINE ---
